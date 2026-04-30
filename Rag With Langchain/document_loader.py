@@ -46,7 +46,7 @@ def load_documents(folder_path: str) -> list[Document]:
 
 
 if __name__ == "__main__":
-    FOLDER = r"C:\Users\nithi\Desktop\My Projects\Learning\Langchain\Rag With Langchain\HR_Policy_Documents"
+    FOLDER = r"C:\Users\nithi\Desktop\My Projects\Learning\RAG Tuturial\Gen-AI-Learning-Repo\Rag With Langchain\HR_Policy_Documents"
     docs = load_documents(FOLDER)
     for doc in docs:
         print(f"{doc.metadata['source']}: {len(doc.page_content)} chars")

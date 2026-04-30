@@ -10,7 +10,6 @@ from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from operator import itemgetter
 
-
 load_dotenv()
 
 CHROMA_PATH = "./chroma_langchain_db"

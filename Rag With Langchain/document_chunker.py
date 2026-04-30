@@ -22,7 +22,7 @@ def create_chunks(documents: list[Document], chunk_size=400, chunk_overlap=50) -
 
 if __name__ == "__main__":
     from document_loader import load_documents
-    FOLDER = r"C:\Users\nithi\Desktop\My Projects\Learning\Langchain\Rag With Langchain\HR_Policy_Documents"
+    FOLDER = r"C:\Users\nithi\Desktop\My Projects\Learning\RAG Tuturial\Gen-AI-Learning-Repo\Rag With Langchain\HR_Policy_Documents"
     docs = load_documents(FOLDER)
     chunks = create_chunks(docs)
     print(f"\nTotal chunks: {len(chunks)}")
