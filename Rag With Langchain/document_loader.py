@@ -1,6 +1,3 @@
-# document_loader.py
-# Responsibility: Load files from folder, return LangChain Document objects
-
 from pathlib import Path
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
