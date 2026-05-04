@@ -1,6 +1,3 @@
-# document_chunker.py
-# Responsibility: Split Document objects into smaller chunks
-
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
