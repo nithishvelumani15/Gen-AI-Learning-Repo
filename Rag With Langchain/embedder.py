@@ -1,10 +1,3 @@
-# indexer.py
-# Run this script ONLY when:
-# - New documents are added to the folder
-# - Existing documents are updated
-# - First time setup
-# DO NOT run this every time you want to chat
-
 import os
 import shutil
 from dotenv import load_dotenv
