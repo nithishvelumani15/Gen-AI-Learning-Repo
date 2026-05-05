@@ -24,6 +24,6 @@ def build_index():
         embedding=embeddings,
         persist_directory=CHROMA_PATH
     )
-    print("success)
+    print("success")
 if __name__ == "__main__":
     build_index()
